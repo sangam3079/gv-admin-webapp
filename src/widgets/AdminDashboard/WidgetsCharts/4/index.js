@@ -37,7 +37,7 @@ const Chart4 = () => {
   return (
     <div>
       <div className="font-weight-bold text-dark font-size-24">78,367</div>
-      <div>Total Sales</div>
+      <div>Total Subscribers</div>
       <ChartistGraph
         className="height-200 ct-hidden-points"
         data={data}

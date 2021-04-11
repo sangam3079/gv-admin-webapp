@@ -37,7 +37,7 @@ const Chart4v2 = () => {
   return (
     <div>
       <div className="font-weight-bold text-dark font-size-24">$78.62M</div>
-      <div>Paid in Crypto</div>
+      <div>Total income</div>
       <ChartistGraph
         className="height-200 ct-hidden-points"
         data={data}

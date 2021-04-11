@@ -18,7 +18,7 @@ const Table1 = () => {
     return (
       <div className='nav'>
         <div className='nav-search-datepicker'>
-          <Search placeholder=" search tracks" onSearch={onSearch} style={{ width: 200 }} />
+          <Search placeholder=" search tags group" onSearch={onSearch} style={{ width: 200 }} />
         </div>
         <div className='nav-AddButton'>
           <AddButton />

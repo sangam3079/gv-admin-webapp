@@ -4,7 +4,7 @@ const General12 = () => {
   return (
     <div>
       <div className="d-flex mb-1">
-        <div className="text-dark text-uppercase font-weight-bold mr-auto">New users</div>
+        <div className="text-dark text-uppercase font-weight-bold mr-auto">New Subsribers</div>
         <div className="text-gray-6">+60% Goal Reached</div>
       </div>
       <div className="d-flex mb-2">

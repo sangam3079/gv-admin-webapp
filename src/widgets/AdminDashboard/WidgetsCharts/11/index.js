@@ -47,7 +47,7 @@ const Chart11 = () => {
   return (
     <div className="card-body overflow-hidden position-relative">
       <div className="font-size-36 font-weight-bold text-dark line-height-1 mt-2">1240</div>
-      <div className="text-uppercase mb-1">Transactions</div>
+      <div className="text-uppercase mb-1">Active User</div>
       <div className={style.chartContainer}>
         <ChartistGraph
           className={`height-200 ct-hidden-points ${style.chart}`}

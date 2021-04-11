@@ -19,7 +19,7 @@ const Table1 = () => {
     return (
       <div className='nav'>
         <div className='nav-search-datepicker'>
-          <Search placeholder=" search tracks" onSearch={onSearch} style={{ width: 200 }} />
+          <Search placeholder=" search playlists" onSearch={onSearch} style={{ width: 200 }} />
           <Calendar/>
         </div>
         <div className='nav-AddButton'>

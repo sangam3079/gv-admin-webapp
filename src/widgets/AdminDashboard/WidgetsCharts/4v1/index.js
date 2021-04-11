@@ -37,7 +37,7 @@ const Chart4v1 = () => {
   return (
     <div>
       <div className="font-weight-bold text-dark font-size-24">+90%</div>
-      <div>Sales Rise</div>
+      <div>Subscriber Rise</div>
       <ChartistGraph
         className="height-200 ct-hidden-points"
         data={data}
