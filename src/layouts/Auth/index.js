@@ -75,7 +75,7 @@ const AuthLayout = ({
           
         </div>
       </Layout.Content> 
-    </Layout> */
+    </Layout>  */
 
   )
 }

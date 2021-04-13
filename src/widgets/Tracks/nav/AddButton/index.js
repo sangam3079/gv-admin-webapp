@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {Link} from 'react'
 import { Button } from 'antd'
 
 const ButtonComponent = ({ data }) => {
   return (
-    <Button type={data.type} className="btn-with-addon">
-      <span className="btn-addon">
-        <i className={`btn-addon-icon ${data.icon}`} />
-      </span>
-      {data.title}
-    </Button>
+    
+      <Button type={data.type} className="btn-with-addon">
+        <span className="btn-addon">
+          <i className={`btn-addon-icon ${data.icon}`} />
+        </span>
+        {data.title}
+      </Button>
+    
   )
 }
 ButtonComponent.defaultProps = {

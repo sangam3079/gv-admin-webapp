@@ -74,6 +74,8 @@ const routes = [
     exact: true,
   },
   
+  
+  
   // VB:REPLACE-END:ROUTER-CONFIG
   {
     path: '/auth/login',
